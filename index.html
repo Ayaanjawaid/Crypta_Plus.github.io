@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Crypta | Password Manager</title>
+  </head>
+  <body>
+    <center>
+      <nav>
+        <div class="logo"><span id="logo-color">C</span>rypta+</div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="generator.html">PASSWORD-GENERATOR</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <h1>Password Manager</h1>
+        <p>
+          <span id="element"></span>
+        </p>
+        <h2>
+          Your Passwords <span id="alert" class="copy-color">(Copied)</span>
+        </h2>
+        <table>
+          <tr>
+            <th>Website</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Delete</th>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>AyanJawaid</td>
+            <td>12345</td>
+            <td>12345</td>
+          </tr>
+        </table>
+
+        <div class="add-container">
+          <h2>Add a Password</h2>
+          <form action="/submit" method="post">
+            <!-- Text input for website -->
+            <label for="website">website:</label>
+            <input type="text" id="website" name="website" required />
+            <br /><br />
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+            <br /><br />
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+            <br /><br />
+
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <script src="script.js"></script>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed("#element", {
+          strings: [
+            "Welcome to your password fortress.",
+            "It is Secure,",
+            "It is simple,",
+            "At your service!",
+          ],
+          typeSpeed: 50,
+        });
+      </script>
+    </center>
+  </body>
+</html>

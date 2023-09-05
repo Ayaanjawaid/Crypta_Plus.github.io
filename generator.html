@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password generator</title>
+    <link rel="stylesheet" href="generator.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <center>
+      <nav>
+        <div class="logo"><span id="logo-color">C</span>rypta+</div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="container-gen">
+        <h1>
+          Password Generator
+          <span class="material-symbols-outlined"> key </span>
+        </h1>
+        <div class="password-container">
+          <div class="input-container">
+            <input type="text" id="password" readonly />
+            <button id="copy" onclick="copyPassword()">Copy</button>
+          </div>
+          <button id="generate" onclick="generatePassword()">
+            Generate Password
+          </button>
+        </div>
+      </div>
+      <script src="generator.js"></script>
+      <script src="script.js"></script>
+    </center>
+  </body>
+</html>

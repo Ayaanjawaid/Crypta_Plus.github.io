@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Graduate", serif;
+}
+nav {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  padding: 9px 23px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.logo {
+  margin-top: 5px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+  margin: 10px 13px;
+}
+
+ul > li:hover {
+  color: rgb(255, 0, 0);
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  margin: 10px 13px;
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+#logo-color {
+  color: rgb(255, 0, 0);
+}
+
+.container-gen {
+  background-color: #fff;
+  max-width: 30vw;
+  margin: 90px 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px;
+  text-align: center;
+}
+
+.password-container {
+  margin-top: 20px;
+}
+
+#password {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #080606;
+  border-radius: 9px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#generate {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+#generate:hover {
+  background-color: #0056b3;
+}
+
+#copy {
+  background-color: #ce0a03;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+#copy:hover {
+  background-color: #800101;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+

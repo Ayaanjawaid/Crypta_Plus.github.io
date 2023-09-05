@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Graduate", serif;
+  cursor: pointer;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  padding: 9px 23px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.logo {
+  margin-top: 5px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+  margin: 10px 13px;
+}
+
+ul > li:hover {
+  color: rgb(255, 0, 0);
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  margin: 10px 13px;
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+table,
+td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 50px;
+}
+
+table {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 23px auto;
+}
+
+.add-container {
+  border: 1px solid black;
+  max-width: 30vw;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px 23px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btnsm {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 900;
+  font-size: 10px;
+  border-radius: 10px;
+}
+.btnsm:hover {
+  background-color: #0056b3;
+}
+
+img {
+  cursor: pointer;
+  position: relative;
+  bottom: 7px;
+  width: 15px;
+  height: 13px;
+}
+
+#alert {
+  display: none;
+}
+
+#logo-color {
+  color: rgb(255, 0, 0);
+}
+
+.copy-color {
+  color: rgb(70, 73, 73);
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+/* ABOUT SECTION  */
+
+.container-about {
+  border: 2px solid black;
+  border-radius: 12px;
+  max-width: 45vw;
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.p-about {
+  line-height: 2.2;
+  margin: 20px;
+}
+
+/* CONTACT SECTION  */
+.container-contact {
+  border: 2px solid black;
+  border-radius: 12px;
+  max-width: 45vw;
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.p-contact {
+  line-height: 3.9;
+  margin: 20px;
+}
